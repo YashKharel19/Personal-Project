@@ -1,0 +1,100 @@
+/*  about background*/
+.about-back{
+  padding-top: 30px;
+  position: relative;
+  background-color: #ECECEA;
+  padding-bottom: 30px;
+}
+/*  main header */
+.about-mainheader{
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Roboto' ,sans-serif;
+  font-size: 24px;
+  color: #123456;
+}
+
+/*  about intro */
+.about-content{
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  font-family: 'Roboto Slab' ,serif;
+  font-size: 18px;
+  color: #5a5a5a;
+  padding-bottom: 5%;
+}
+.about-mainheader-workingareas{
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Roboto' ,sans-serif;
+  font-size: 24px;
+  color: #123456;
+}
+
+/*  about intro */
+.about-content-workingareas{
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  font-family: 'Roboto Slab' ,serif;
+  font-size: 18px;
+  color: #eee;
+  padding-bottom: 5%;
+}
+.about-mainheader-fintech{
+  text-align: center;
+  font-family: 'Roboto' ,sans-serif;
+  font-size: 20px;
+  color: #123456;
+  }
+.about-content-fintech{
+  padding-left: 17%;
+  padding-right: 17%;
+  text-align:center;
+  font-family: 'Roboto Slab' ,serif;
+  font-size: 16px;
+  color: #5a5a5a;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.about-workingareas{
+  padding-left: 12%;
+  font-family: 'Roboto' ,sans-serif;
+  font-size: 20px;
+  color: #123456;
+}
+.about-content-workingareas{
+  text-align:justify;
+  font-family: 'Roboto Slab' ,serif;
+  font-size: 16px;
+  color: #5a5a5a;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.tab-text{
+  padding-left: 14%;
+  position: absolute;
+  margin-top: -27px;
+}
+.about-aifintech{
+  float:left;
+  padding-left: 10%;
+}
+.about-row{
+  margin: 30px 6% 30px 1%;
+  min-height: 450px;
+}
+.workingareas-height{
+  height:550px;
+}
+.title-line{
+    left: 50%;
+    position: absolute;
+    width: 82px;
+    height: 2px;
+    background: #7ED321;
+}
+.ai-fintech{
+  padding-top: 10%;
+}

@@ -1,0 +1,252 @@
+.client-background{
+background-color: #f7f7f7;
+position: relative;
+padding-top: 50px;
+padding-bottom: 40px;
+margin-top: -12px;
+}
+#hexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 55%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  list-style-type: none;
+}
+.hex {
+  position: relative;
+  visibility:visible;
+  outline:1px solid transparent;/* fix for jagged edges in FF on hover transition */
+}
+.hex::after{
+  content:'';
+  display:block;
+  padding-bottom: 86.602%;  /* =  100 / tan(60) * 1.5 */
+}
+.hexIn{
+  position: absolute;
+  width:96%;
+  padding-bottom: 110.851%; /* =  width / sin(60) */
+  margin:0 2%;
+  overflow: hidden;
+  visibility: visible;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+      -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+          transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+}
+.hexIn * {
+  position: absolute;
+  visibility: visible;
+  outline:1px solid transparent;
+}
+.hexLink {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color:#ECECEA;
+    opacity:0.8;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+        -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+            transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+}
+
+/*** HEX CONTENT **********************************************************************/
+.hex img {
+  left: -100%;
+  right: -100%;
+  width:5em;
+  height:5em;
+  margin:3em auto;
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .8s ease-in-out;
+  -webkit-transform: rotate3d(180,180,180,0deg);
+      -ms-transform: rotate3d(180,180,180,0deg);
+          transform: rotate3d(180,180,180,0deg);
+}
+/*** HOVER EFFECT  **********************************************************************/
+.hexLink:hover{
+  cursor: pointer;
+  /* background-color: #f3f3f3; */
+}
+.hex img:hover {
+  filter: none; /* IE5+ */
+  -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .3s ease-in-out;
+}
+
+
+/*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
+@media (min-width: 1200px) { /* <- 4-3  hexagons per row */
+  #hexGrid{
+    padding-bottom: 5.5%
+  }
+  .hex {
+    width: 25%; /* = 100 / 4 */
+  }
+  .hex:nth-child(7n+5){ /* first hexagon of even rows */
+    margin-left:12.5%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+  #hexGrid{
+    padding-bottom: 7.4%
+  }
+  .hex {
+    width: 33.333%; /* = 100 / 3 */
+  }
+  .hex:nth-child(5n+4){ /* first hexagon of even rows */
+    margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 600px) { /* <- 2-1  hexagons per row */
+  #hexGrid{
+    padding-bottom: 11.2%
+  }
+  .hex {
+    width: 50%; /* = 100 / 3 */
+  }
+  .hex:nth-child(3n+3){ /* first hexagon of even rows */
+    margin-left:25%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 400px) {
+    #hexGrid {
+        font-size: 13px;
+    }
+}
+.client-header{
+  position: relative;
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #123456;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/*  Modal client-all-modal description */
+.modal-image-client{
+  margin-top: 20%;
+}
+.image-center{
+  text-align: center;
+}
+.client-all-modal-name{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  padding-top: 30px;
+  text-align: center;
+}
+.client-all-modal-position{
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color:green;
+  text-align: center;
+}
+.vertical-line{
+  border-left: 2px solid #fff;
+  height: 80vh;
+  position: absolute;
+  margin-top: -265px;
+  margin-left: 95%;
+}
+.client-all-modal-details-header1{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  padding-top: 50px;
+  text-align: left;
+}
+.client-all-modal-details-header2{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  text-align: left;
+}
+.client-all-modal-details-header3{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  padding-top: 20px;
+  text-align: left;
+}
+.client-all-modal-contact{
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color:green;
+  text-align:left;
+}
+.client-all-modal-detail-all{
+  margin-left: 2%;
+}
+.btn {
+    background:transparent;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 3px;
+    padding: 1px 5px;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    margin-right: 3px;
+    cursor: initial;
+    color: #123456;
+}
+.person-description{
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color:#5a5a5a;
+  text-align:justify;
+}
+
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    margin-top: -50px;
+}
+@media screen and (max-width: 992px) {
+  .vertical-line{
+    border-left: transparent;
+    height: 0%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+  .image-center{
+    text-align:left;
+  }
+  .client-all-modal-name{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color:#123456;
+    padding-top: 10px;
+    text-align:left;
+  }
+  .client-all-modal-position{
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    color:green;
+    text-align:left;
+  }
+  .client-all-modal-detail-all{
+    margin-left: 0%;
+  }
+}

@@ -1,0 +1,80 @@
+.navbar-default {
+  padding-bottom: 0px;
+  height: 65px;
+  margin-bottom: 0px;
+  position: fixed;
+  z-index: 100;
+  opacity: .98;
+  border-color: transparent;
+  box-shadow: none;
+}
+.zoom-effect-brand {
+  transition: all .05s ease;
+  -webkit-transition: all .05s ease; /* Safari and Chrome */
+  -moz-transition: all .05s ease; /* Firefox */
+  -ms-transition: all .05s ease; /* IE 9 */
+  -o-transition: all .05s ease; /* Opera */
+}
+.navbar-default .navbar-brand {
+    padding-top: 20px;
+    font-size: 25px;
+}
+.zoom-effect-brand:hover {
+  position: relative;
+  transform:scale(1.05);
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05); /* Opera */
+}
+.nav-items{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  padding: 7px 10px;
+  color:black;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 0.8;
+    -webkit-transition:  0.3s ease-in-out;
+      -moz-transition:  0.3s ease-in-out;
+      -ms-transition:  0.3s ease-in-out;
+      -o-transition:  0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #5A8C89;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+    color: white;
+    background-color: #5A8C89;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-weight: bold;
+}
+@media (min-width: 768px){
+  .navbar-nav>li>a {
+      margin-top: 7px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border-color: transparent;
+      background: transparent;
+  }
+
+}
+nav ul li.active {
+    background-color:transparent;
+}
+@media(max-width:768px){
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border-color: transparent;
+      background: #ECECEA;
+      text-align: center;
+  }
+}

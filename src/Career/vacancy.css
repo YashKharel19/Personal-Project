@@ -1,0 +1,86 @@
+.job-description{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  position: relative;
+  }
+
+.job-description > h1{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+  font-size: 40px;
+  padding-bottom: 20px;
+  color:#123456;
+}
+
+.career-dev{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Jura', sans-serif;
+}
+
+.career-job-card > img {
+  object-fit: cover;
+}
+
+.career-job-card {
+  width: 380px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.hidden-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s linear;
+  background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5));
+}
+
+.career-job {
+  margin-bottom: 30px;
+}
+
+.career-job-card:hover {
+  cursor: pointer;
+  filter: none;
+}
+
+.career-job-card:hover .hidden-content {
+  opacity: 1;
+}
+
+.hire-icon {
+  font-size: 22px;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.hire-head {
+  text-align: center;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.hire-text {
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+  font-size: 16px;
+}
+
+body.swal2-iosfix {
+  top: 0 !important;
+}
+.swal2-popup #swal2-content {
+    text-align: left;
+}

@@ -1,0 +1,127 @@
+.header-ourwork{
+  position: relative;
+  background-color: #558C89;
+  padding-top: 25px;
+  font-size: 24px;
+  font-family: 'Roboto',sans-serif;
+  text-align: center;
+  color:#fff;
+  opacity:0.9;
+}
+.work-row{
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-a{
+  background-color:  #558C89;
+  opacity:0.9;
+  z-index: 1px;
+}
+.carousel {
+    position: relative;
+    margin-top: -12px;
+}
+.carousel-control.right {
+  display: none;
+}
+.carousel-control.left {
+  display: none;
+}
+.carousel-img {
+  margin-left: 6%;
+  margin-right: 2%;
+  object-fit:cover;
+  display: inline-block;
+  overflow: hidden;
+  width:400px;
+  height:400px;
+  min-width: 220px;
+  min-height: 220px;
+}
+.work-header{
+  padding-top: 50px;
+  padding-left: 10%;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color:#fff;
+  text-transform: uppercase;
+}
+.work-client{
+    padding-top: 10px;
+    padding-left: 10%;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color:#eee;
+    text-transform: capitalize;
+}
+
+.work-details{
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 5%;
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color:#eee;
+}
+.works-inside{
+  position: absolute;
+  padding-left: 40%;
+  width: 80%;
+  height:auto;
+  z-index: -10;
+}
+.work-button-position{
+  background-color: #558c89;
+  opacity:0.9;
+  position: relative;
+  padding-bottom:3.5%;
+  z-index: 20;
+}
+.centr-title{
+  text-align: center;
+}
+.work-button {
+  border-radius: 7px;
+  font-size: 20px;
+  text-shadow: 3px 3px rgba(0,0,0,0.5);
+  background-color: transparent;
+  color:white;
+  padding:15px;
+}
+
+.work-button:hover {
+  background-color: #376eaf;
+  color:white;
+  text-shadow:none;
+  transition: all .05s ease;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease;
+  transform:scale(1.05);
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.loading-icon{
+  text-align: center;
+  background: #fff;
+ }
+@media and screen(max-width:992px){
+  .carousel-img {
+    margin-left: 0;
+    position: relative;
+    text-align: center;
+    width:200px;
+  }
+  .carousel {
+      position: relative;
+      margin-top: -14px;
+  }
+}

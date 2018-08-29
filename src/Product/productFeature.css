@@ -1,0 +1,70 @@
+.features-product-main {
+  padding-bottom: 20px;
+}
+.feature-main-header{
+  font-family: "Roboto",sans-serif;
+  color:#123456;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 30px;
+}
+.feature-header{
+  font-family: "Roboto Slab",serif;
+  color:#123456;
+  font-size: 16px;
+  padding-top: 15px;
+  text-align: center;
+}
+.feature-detail{
+  font-family: "Roboto Slab",serif;
+  color:#5a5a5a;
+  font-size: 14px;
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .features-product-main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .features-product-main {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .features-product-main .row {
+    width: 100%;
+  }
+
+  .features-product-main {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .features-product-img {
+    padding-top: 30px;
+  }
+}
+
+.features-product-img {
+  margin-bottom: 50px;
+}
+
+.features-product-detail {
+  background-color:#fff;
+  height: 100px;
+  margin-bottom: 10px;
+  background-size: cover;
+  border-left: 10px solid #fff;
+  -moz-transform:skew(0deg, 0deg);
+  transform:skew(0deg, 0deg);
+}
+
+@media screen and (max-width: 600px) {
+  .features-product-detail {
+    height: 150px;
+  }
+}

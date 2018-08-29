@@ -1,0 +1,111 @@
+.product-row{
+  min-height: 600px;
+}
+.header-product{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+  font-family: 'Roboto',sans-serif;
+  text-align: center;
+  background: #f7f7f7;
+  color:#123456;
+}
+.header-product>h1{
+  margin:0;
+}
+.product-a{
+  position:relative;
+  background-color: #74AFAD;
+  opacity:0.9;
+  z-index: 1px;
+}
+.product-b{
+  position: relative;
+  background-color:#D9853B;
+  opacity:0.9;
+  z-index: 1px;
+}
+.prod-img{
+  text-align: center;
+  object-fit:cover;
+  display: inline-block;
+  overflow: hidden;
+  width:400px;
+  height:400px;
+  min-width: 220px;
+  min-height: 220px;
+}
+
+.product-header{
+  padding-top: 100px;
+  padding-left: 6%;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color:#fff;
+  text-transform: uppercase;
+}
+.product-client{
+    padding-top: 10px;
+    padding-left: 6%;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color:#eee;
+    text-transform: capitalize;
+}
+
+.product-details{
+    padding-top: 20px;
+    padding-left: 6%;
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color:#eee;
+}
+.product-details2{
+    padding-left: 6%;
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color:#eee;
+}
+.products-inside{
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  height:auto;
+}
+.product-button-position{
+  position: absolute;
+  margin-left: 135px;
+  padding-top: 50px;
+  z-index: 20;
+}
+.centr-title{
+  text-align: center;
+}
+.product-button {
+  border-radius: 7px;
+  font-size: 20px;
+  background-color: transparent;
+  color:white;
+  padding:15px;
+}
+
+.product-button:hover {
+  background-color: #376eaf;
+  color:white;
+  transition: all .05s ease;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease;
+  transform:scale(1.05);
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

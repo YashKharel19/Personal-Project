@@ -1,0 +1,83 @@
+.product-about-main{
+  background:#f3f3f3;
+}
+.product-image-center{
+  text-align: center;
+}
+.productall-name{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  padding-top: 30px;
+  text-align: center;
+}
+.productall-position{
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color:green;
+  text-align: center;
+}
+.modal-image-product{
+    margin-top: 40%;
+}
+.vlall{
+  border-left: 2px solid #fff;
+  height: 98vh;
+  position: absolute;
+  margin-top: -355px;
+  margin-left: 95%;
+}
+.productall-details-header1{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  padding-top: 50px;
+  text-align: left;
+}
+.productall-details-header2{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  text-align: left;
+}
+.productall-details-header3{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  padding-top: 20px;
+  text-align: left;
+}
+.productall-description{
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color:#5a5a5a;
+  text-align:justify;
+}
+@media screen and (max-width: 992px) {
+  .vlall{
+    border-left: transparent;
+    height: 0%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+  .product-image-center{
+    text-align:left;
+  }
+  .productall-name{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color:#123456;
+    padding-top: 10px;
+    text-align:left;
+  }
+  .productall-position{
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    color:green;
+    text-align:left;
+  }
+  .productall-detail-all{
+    margin-left: 0%;
+  }
+}

@@ -1,0 +1,239 @@
+.team-main {
+  margin-top: -3%;
+  position: relative;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+.team-head {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  font-family: 'Roboto' ,sans-serif;
+  font-size: 24px;
+  color: #123456;
+}
+
+.about-team{
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  font-family: 'Roboto Slab' ,serif;
+  font-size: 16px;
+  color: #414165;
+  padding-bottom: 5%;
+}
+.title-line{
+    margin-top: -3%;
+    left: 50%;
+    margin-left: -36px;
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    background: #7ED321;
+}
+.team-row{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.team-card {
+  margin-bottom: 40px;
+  transition: ease .25s;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 300px;
+}
+
+.team-card > img {
+  width: 300px;
+  height:300px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.team-info {
+  position: absolute;
+  height: 90%;
+  width: 80%;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 7.2%;
+  right: 0;
+  transition: all 1s ease;
+  background: linear-gradient(135deg, rgba(208, 224, 65, .7) 0%,rgba(50, 132, 37, .7) 100%);
+}
+
+.team-card:hover .team-info {
+  opacity: 1;
+}
+.list-expertise{
+  display: table-cell;
+}
+.join-image {
+  margin-bottom: 40px;
+  transition: ease .25s;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 300px;
+}
+.join-image > img {
+  width: 300px;
+  height:400px;
+  object-fit: cover;
+  object-position:top;
+}
+.join-team > h3{
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  bottom: 15%;
+  left: 30%;
+}
+
+@media screen and (min-width: 992px) {
+  .team-main{
+      margin-bottom: 8px;
+      box-shadow: 0 10px 10px #060606;
+    }
+
+  .team-card:hover .team-info {
+    opacity: 1;
+    transform: rotate(-6deg);
+  }
+}
+
+.team-info > h3{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-left: 48%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.team-info > p {
+ color: #fff;
+ position: absolute;
+ top: 70%;
+ margin-left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+}
+/*  Modal team description */
+.modal-image{
+  border-radius: 50%;
+  border: 6px solid white;
+  margin-top: 20%;
+}
+.image-center{
+  text-align: center;
+}
+.team-name{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  padding-top: 30px;
+  text-align: center;
+}
+.team-position{
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color:green;
+  text-align: center;
+}
+.vl{
+  border-left: 2px solid #fff;
+  height: 80vh;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 95%;
+}
+.team-details-header1{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  padding-top: 50px;
+  text-align: left;
+}
+.team-details-header2{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  text-align: left;
+}
+.team-details-header3{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color:#123456;
+  padding-top: 20px;
+  text-align: left;
+}
+.team-contact{
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color:green;
+  text-align:left;
+}
+.team-detail-all{
+  margin-left: 2%;
+}
+.btn {
+    background:transparent;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 3px;
+    padding: 1px 5px;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    margin-right: 3px;
+    cursor: initial;
+    color: #123456;
+}
+.person-description{
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color:#5a5a5a;
+  text-align:justify;
+}
+@media screen and (max-width: 992px) {
+  .vl{
+    border-left: transparent;
+    height: 0%;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+  .image-center{
+    text-align:left;
+  }
+  .team-name{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color:#123456;
+    padding-top: 10px;
+    text-align:left;
+  }
+  .team-position{
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    color:green;
+    text-align:left;
+  }
+  .team-detail-all{
+    margin-left: 0%;
+  }
+  .team-info {
+    position: absolute;
+    height: 88.5%;
+    width: 60.5%;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left:3%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    background: -webkit-linear-gradient(315deg, rgba(208, 224, 65, .7) 0%,rgba(50, 132, 37, .7) 100%);
+    background: -o-linear-gradient(315deg, rgba(208, 224, 65, .7) 0%,rgba(50, 132, 37, .7) 100%);
+  }
+}

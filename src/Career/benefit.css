@@ -1,0 +1,83 @@
+.career-benefits {
+  position: relative;
+  background:linear-gradient(
+                     rgba(127,175,173, .7),
+                     rgba(127,175,173, .7)),
+                     url("../assets/Career.jpg") no-repeat center center fixed;
+  padding-bottom: 50px;
+}
+
+.benefits-head {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Roboto',sans-serif;
+  color:#fff;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.white-box {
+  margin: 30px 0;
+  background-color: #f7f7f7;
+  opacity:0.9;
+  box-shadow: 0 12px 6px -6px #555;
+}
+
+.white-box .row {
+  margin: 0;
+}
+
+.media-body {
+  vertical-align: middle;
+  width: 50%;
+}
+
+.media-body > h3 {
+  font-family: 'Roboto',sans-serif;
+  color: #123456;
+  padding-top: 20px;
+}
+
+.media-body > span {
+  font-size: 16px;
+  font-family: 'Roboto Slab',serif;
+  color: #5a5a5a;
+}
+
+.media-items {
+  object-fit: cover;
+}
+
+.media-items > img {
+  object-fit: cover;
+  width: 49%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.media-items > img:hover {
+  transform: scale(.9);
+}
+
+@media screen and (min-width: 992px) {
+  .career-benefits {
+    margin-bottom: 10px;
+    box-shadow: 0 10px 10px #060606;
+  }
+
+  .media-items {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .media-items {
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 433px) {
+  .media-items {
+    height: 200px;
+  }
+}

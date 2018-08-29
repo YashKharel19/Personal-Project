@@ -1,0 +1,72 @@
+.title-map{
+  padding-top: 40px;
+  font-family: "Roboto Slab",serif;
+  font-size: 24px;
+  color: #123456;
+}
+.title-info{
+  padding-top: 20px;
+  font-size: 14px;
+  font-family: "Roboto",sans-serif;
+  color: #5a5a5a;
+  line-height: 25px;
+}
+.title-info>a{
+  font-size: 14px;
+  font-family: "Roboto",sans-serif;
+  color: #5a5a5a;
+  line-height: 25px;
+}
+.title-info>a:hover{
+  color:green;
+}
+.map-ict{
+   width:100%;
+   height:300px;
+   border:0px;
+}
+.modal-content {
+    background-color: #f2f2f2;
+}
+
+.modal h4 {
+    text-align: center;
+}
+.ant-modal {
+    top: 0;
+    font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    margin: 0 auto;
+}
+.ant-modal-content{
+  background-color: #f3f3f3;
+}
+.ant-modal-title {
+    margin: 0;
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+}
+.ant-modal-header{
+  text-align: center;
+}
+.ant-modal-wrap {
+    overflow:auto;
+}
+.ant-modal-wrap::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.ant-modal-wrap::-webkit-scrollbar-thumb {
+  background-color:	#C0C0C0 ;
+  outline: 1px solid slategrey;
+}
