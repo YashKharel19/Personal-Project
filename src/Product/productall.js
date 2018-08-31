@@ -31,7 +31,7 @@ export default class ProductAll extends Component{
           {productsall.map(productall =>{
             if(productdetailall ===productall.title){
               return(
-                <div className='row'>
+                <div className='row' key={productall.id}>
                   <div className="col-md-4">
                     <div className='product-image-center'>
                       <img src={productall.imageurl} alt={productall.title} width='300px' className='modal-image-product' />
@@ -43,7 +43,7 @@ export default class ProductAll extends Component{
                     <h2 className='productall-details-header2'>USED BY</h2>
                     {productall.used.map(list=>{
                       return(
-                        <ul>
+                        <ul key={list.id}>
                           <li className='btn'>{list.client}</li>
                         </ul>
                       );

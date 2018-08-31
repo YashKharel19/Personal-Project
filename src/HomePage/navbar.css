@@ -32,7 +32,6 @@
   font-family: 'Roboto', sans-serif;
   background-color: transparent;
   padding: 7px 10px;
-  color:black;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -47,15 +46,20 @@
       transition: 0.3s ease-in-out;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #5A8C89;
+    color:white;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
-    color: white;
-    background-color: #5A8C89;
+    color: black;
+    background-color: white;
     opacity: 0.8;
     border-radius: 5px;
     font-weight: bold;
 }
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 @media (min-width: 768px){
   .navbar-nav>li>a {
       margin-top: 7px;
@@ -77,4 +81,7 @@ nav ul li.active {
       background: #ECECEA;
       text-align: center;
   }
+}
+.elm {
+  color:#5A8C89;
 }

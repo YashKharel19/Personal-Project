@@ -6,6 +6,7 @@
   font-family: 'Roboto',sans-serif;
   text-align: center;
   color:#fff;
+  top:-30px;
   opacity:0.9;
 }
 .work-row{
@@ -20,7 +21,7 @@
 }
 .carousel {
     position: relative;
-    margin-top: -12px;
+    margin-top: -42px;
 }
 .carousel-control.right {
   display: none;
@@ -122,6 +123,9 @@
   }
   .carousel {
       position: relative;
-      margin-top: -14px;
+      margin-top: -44px;
+  }
+  .work-button-position{
+    margin-left:40px;
   }
 }

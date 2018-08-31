@@ -5,6 +5,7 @@
   "dependencies": {
     "antd": "^3.8.2",
     "axios": "^0.18.0",
+    "mdbreact": "^4.7.0",
     "react": "^16.4.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^0.32.3",

@@ -38,8 +38,8 @@
 }
 
 .product-header{
-  padding-top: 100px;
   padding-left: 6%;
+  padding-top: 70px;
   text-align: left;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
@@ -59,6 +59,7 @@
 .product-details{
     padding-top: 20px;
     padding-left: 6%;
+    padding-right: 2%;
     text-align: justify;
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
@@ -66,6 +67,7 @@
 }
 .product-details2{
     padding-left: 6%;
+    padding-right: 2%;
     text-align: justify;
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
@@ -78,8 +80,7 @@
   height:auto;
 }
 .product-button-position{
-  position: absolute;
-  margin-left: 135px;
+  position: relative;
   padding-top: 50px;
   z-index: 20;
 }
@@ -108,4 +109,16 @@
   -ms-transform:scale(1.05); /* IE 9 */
   -o-transform:scale(1.05);
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 992px){
+  .product-row{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: inherit;
+    padding-bottom: 20px;
+  }
+  .prod-img{
+    width:300px;
+    height:300px;
+  }
 }

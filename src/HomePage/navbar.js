@@ -11,26 +11,17 @@ export default class NavBar extends Component{
     this.state = {
       background: 'transparent',
       opacity:1,
-      activeKey:0
+      activeKey:0,
     };
  }
  listenScrollEvent = e => {
    if (window.scrollY > 640) {
-      const menu = (document.getElementsByClassName("navbar-default navbar-nav") && document.getElementsByTagName("li a"));
-      console.log(menu);
-      for(let item in menu){
-          if(menu[item].style){menu[item].style.color="white";}
-      }
-    //   menu.map((item)=>{
-    //   item.style.color="white";
-    // })
-     this.setState({background:'#558C89', opacity:0.9})
+       this.setState({background:'#5A8C89',opacity:0.9})
    }
    else {
-     this.setState({background: 'transparent', opacity:1})
+     this.setState({background: 'transparent',opacity:1})
    }
  }
-
  handleSelect(selectedKey){
    this.setState({
      activeKey:selectedKey
@@ -60,8 +51,8 @@ export default class NavBar extends Component{
   }
  render(){
     return(
-      <div>
-        <Navbar fixedTop fluid style={{background:this.state.background,opacity:this.state.opacity}}>
+      <div className="App container">
+        <Navbar fluid fixedTop collapseOnSelect style={{background:this.state.background,opacity:this.state.opacity}}>
           <Navbar.Header>
             <Navbar.Brand className="animated fadeInLeft">
               <a href="/" className='logo'><img src={Logo} alt='logo' width='40px' height='40px' /></a>
@@ -73,7 +64,7 @@ export default class NavBar extends Component{
                 activeKey={this.state.activeKey}
                 onSelect={k => {this.handleSelect(k)} }
             >
-              <NavItem className="nav-items" eventKey={1} componentClass={ NavLink } href='/' to='/' exact={true}>HOME</NavItem>
+              <NavItem className="nav-items" id="elm" eventKey={1} componentClass={ NavLink } href='/' to='/' exact={true}>HOME</NavItem>
               <NavItem className="nav-items" eventKey={2} componentClass={ NavLink } href='/aboutus' to='/aboutus' exact={true}>ABOUT US</NavItem>
               <NavItem className="nav-items" eventKey={3} componentClass={ NavLink } href='/product' to='/product' exact={true}>PRODUCTS</NavItem>
               <NavItem className="nav-items" eventKey={4} componentClass={ NavLink } href='/career' to='/career' exact={true}>CAREER</NavItem>

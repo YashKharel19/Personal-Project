@@ -30,15 +30,15 @@ export default class AboutDetail extends Component{
         <div className='about-back'>
               {aboutict.map(shortdesc =>{
                   return(
-                    <div>
+                    <div key={shortdesc.id}>
                           <h1 className='about-mainheader'>About Integrated ICT</h1>
                           <p className='about-content-fintech'>{shortdesc.aboutIct}</p>
                     </div>
                   );
                })}
-                   <div>       
+                   <div>
                         <span className='title-line'></span>
-                          <div className="row">
+                          <div className="row row-about">
                             {workingareas.map(arealist =>{
                               if((arealist.id%2) === 1){
                                return(

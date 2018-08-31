@@ -24,6 +24,9 @@
   color: #5a5a5a;
   padding-bottom: 5%;
 }
+.row-about{
+  padding-top:45px;
+}
 .about-mainheader-workingareas{
   padding-top: 50px;
   text-align: center;
@@ -91,6 +94,7 @@
 .title-line{
     left: 50%;
     position: absolute;
+    top:325px;
     width: 82px;
     height: 2px;
     background: #7ED321;

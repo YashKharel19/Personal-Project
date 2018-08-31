@@ -2,7 +2,7 @@ import React,{ Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from 'semantic-ui-react';
 
-
+import '../mediaqueries.css';
 import './productlist.css';
 
 
@@ -29,7 +29,7 @@ export  default class ProductList extends Component{
                 {productlists.map(productlist =>{
                       if((productlist.id)%2 === 1){
                         return(
-                          <div className='product-a'>
+                          <div className='product-a' key={productlist.id} >
                               <div className='product-row'>
                                   <div className='col-md-4'>
                                       <img src={productlist.url} className="prod-img"  alt={productlist.title} />
@@ -51,7 +51,7 @@ export  default class ProductList extends Component{
                       }
                       else{
                         return(
-                            <div className='product-b'>
+                            <div className='product-b' key={productlist.id} >
                                 <div className='product-row'>
                                    <div className='col-md-8'>
                                          <h1 className='product-header'>{productlist.title}</h1>

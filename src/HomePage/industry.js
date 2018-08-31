@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Icon } from 'semantic-ui-react';
-import '../mediaqueries.css'
+import '../mediaqueries.css';
 
 import './industry.css';
 import { IndustryData } from '../Data/Homepage/Industry/industrydata.js';
@@ -43,15 +43,16 @@ export default class Industry extends Component{
                   );
                 }
                 )}
+                <a href='/aboutus' exact="true" key='id'>
+                  <div className ='center-title'>
+                      <div className='industry-button-position'>
+                          <button className='industry-button'>Learn More</button>
+                      </div>
+                  </div>
+                </a>
             </div>
           </ScrollAnimation>
-          <a href='/aboutus' exact="true" key='id'>
-            <div className ='center-title'>
-                <div className='industry-button-position'>
-                    <button className='industry-button'>Learn More</button>
-                </div>
-            </div>
-          </a>
+
       </div>
      );
     }

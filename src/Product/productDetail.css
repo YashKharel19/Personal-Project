@@ -8,32 +8,33 @@
 
 }
 /* Style the tab */
-.tab {
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #333;
+
 }
-/* Style the buttons inside the tab */
-.tab button {
-    background-color: inherit;
-    float: left;
-    border-right:1px solid #4886b5;
-    border-bottom: none;
-    border-left: none;
-    border-top: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 11.6%;
-    transition: 0.3s;
-    font-size: 17px;
+
+ul.topnav li {float: left;}
+
+ul.topnav li  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
 }
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
-}
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #4886b5;
+
+ul.topnav li :hover:not(.active) {background-color: #111;}
+ul.topnav li.active {background-color: #4CAF50;}
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
 }
 /* Style the tab content */
 .tabcontent {
@@ -78,4 +79,8 @@
   min-height: 500px;
 	background: no-repeat center center fixed;
 	background-size:cover;
+}
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
 }

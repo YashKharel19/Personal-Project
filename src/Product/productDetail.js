@@ -64,10 +64,12 @@ export default class ProdDetail extends Component{
                   );
                 }
             })}
-            <div className="tab">
-              <button className="tablinks" onClick={(event)=>{this.changeNav(event, 'Features')}} id='defaultOpen' >FEATURES</button>
-              <button className="tablinks" onClick={(event)=>{this.changeNav(event, 'Demo')}}>ABOUT PRODUCTS</button>
-              <button className="tablinks" onClick={(event)=>{this.changeNav(event, 'Request')}}>REQUEST A QUOTE</button>
+            <div>
+                <ul className="topnav">
+                            <li className='tablinks' onClick={(event)=>{this.changeNav(event, 'Features')}} id='defaultOpen'>FEATURES</li>
+                            <li className='tablinks' onClick={(event)=>{this.changeNav(event, 'Demo')}}>ABOUT PRODUCTS</li>
+                            <li className='tablinks' onClick={(event)=>{this.changeNav(event, 'Request')}}>REQUEST A QUOTE</li>
+                </ul>
             </div>
             <div id="Features" className="tabcontent">
                 <ProdFeature productdetailurl={ProductDetails} title={titleclick} />

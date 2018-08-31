@@ -29,7 +29,7 @@ export default class ProdFeature extends Component{
                 {productfeatures.map(productfeature =>{
                   if(featuremain ===productfeature.title){
                     return(
-                        <div>
+                        <div key={productfeature.id}>
                         <h2 className ='feature-main-header'>{productfeature.descriptionshort}</h2>
                         <div className="row">
                             {productfeature.features.map((listfeature,index)=>{
