@@ -94,6 +94,7 @@
 .industry-button-position{
   position:relative;
   margin-top: 45px;
+  left:-3%;
   padding-bottom: 20px;
 }
 .industry-button{
@@ -104,7 +105,7 @@
   padding:15px;
 }
 .industry-button:hover{
-  background-color:#5A8C89;
+  background-color:lightgreen;
   opacity:0.7;
   color:white;
   transition: all .05s ease;
@@ -126,9 +127,15 @@
 .industry-row .animated {
   animation-duration: .5s;
 }
+.carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+     height:350px;
+}
 @media screen and (max-width: 992px){
   .industry-row{
     display: flex;
     flex-wrap: wrap;
+  }
+  .industry-button-position{
+    left:50%;
   }
 }

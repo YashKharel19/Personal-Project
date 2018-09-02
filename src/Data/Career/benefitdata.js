@@ -19,7 +19,7 @@ export const BenefitData =
     "header": "ADVENTURE",
     "body": "In every walk with nature, one receives far more than he seeks.",
     "url1":`${HikeA}`,
-    "url2":"${HikeB}"
+    "url2":`${HikeB}`
   },
   {
     "id": 3,

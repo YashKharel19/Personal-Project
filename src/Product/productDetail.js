@@ -57,7 +57,7 @@ export default class ProdDetail extends Component{
                           <h3 className ='product-detail-description'>{productdetail.tagline}</h3>
                         </div>
                         <div className='col-md-6'>
-                          <img src={productdetail.imageurl} alt={productdetail.title} width='500px' className='image-product' />
+                          <img src={productdetail.imageurl} alt={productdetail.title} className='image-product' />
                         </div>
                       </div>
                     </div>

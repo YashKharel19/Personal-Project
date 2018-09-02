@@ -64,7 +64,8 @@ ul.topnav li.right {float: right;}
 }
 .image-product{
     position: relative;
-    margin-top: 5%;
+    padding-top: 100px;
+    width:500px;
     padding-left: 20%;
 }
 @media screen and (min-width: 992px) {
@@ -73,6 +74,7 @@ ul.topnav li.right {float: right;}
     margin-bottom: 10px;
     box-shadow: 0 10px 10px #060606;
   }
+
 }
 
 .product-detail-bg {
@@ -83,4 +85,13 @@ ul.topnav li.right {float: right;}
 @media screen and (max-width: 600px){
     ul.topnav li.right,
     ul.topnav li {float: none;}
+}
+@media screen and (max-width:992px){
+  .image-product{
+      padding-left: 0%;
+      width:350px;
+  }
+  .product-detail-description{
+    padding-bottom: 30px;
+  }
 }

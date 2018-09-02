@@ -58,7 +58,7 @@ class FormAll extends Component {
           };
           return (
             <div className='row'>
-              <div className='col-md-8'>
+              <div className='col-md-8 form-padding'>
                   <Form onSubmit={this.handleSubmit}>
                           <FormItem
                       {...formItemLayout}

@@ -78,7 +78,7 @@ nav ul li.active {
 @media(max-width:768px){
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
       border-color: transparent;
-      background: #ECECEA;
+      background: #5A8C89;
       text-align: center;
   }
 }

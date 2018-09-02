@@ -8,25 +8,7 @@ const FormItem = Form.Item;
 const { TextArea } = Input;
 const { Option } = Select;
 
-// const props = {
-//     onRemove: (file) => {
-//     this.setState(({ fileList }) => {
-//       const index = fileList.indexOf(file);
-//       const newFileList = fileList.slice();
-//       newFileList.splice(index, 1);
-//       return {
-//         fileList: newFileList,
-//       };
-//     });
-//   },
-//   beforeUpload: (file) => {
-//     this.setState(({ fileList }) => ({
-//       fileList: [...fileList, file],
-//     }));
-//     return false;
-//   },
-//   fileList: this.state.fileList,
-// };
+
 class ApplyNow extends Component{
    state = {
       confirmDirty: false,
@@ -104,7 +86,7 @@ class ApplyNow extends Component{
     };
     return (
         <div className='row'>
-          <div className='col-md-8'>
+          <div className='col-md-8 form-padding'>
               <Form onSubmit={this.handleSubmit}>
                       <FormItem
                   {...formItemLayout}
