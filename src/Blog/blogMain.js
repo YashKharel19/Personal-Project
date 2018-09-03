@@ -2,7 +2,7 @@ import React,{ Component } from 'react';
 
 import BlogCover from './coverpageBlog';
 import BlogContent from './blogContent';
-import { BlogList } from '../bloglistdata';
+import { BlogList } from '../Data/Blog/bloglistdata';
 import './blogMain.css';
 
 export default class Blog extends Component{

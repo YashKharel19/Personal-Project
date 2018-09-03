@@ -41,7 +41,7 @@ export default class BlogContent extends Component{
                           <div className="blog-pos-fixed">
                             <img src={blog.url} alt='Devops' width="100%" height="70%" />
                             <h3>{blog.title}</h3>
-                            <p>{blog.body}</p>
+                            <p>{blog.shortdescription}</p>
                             <div className="blog-tag-div">
                                 <a className="blog-tag" href="/blog"><span>tag</span></a>
                             </div>

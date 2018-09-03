@@ -1,6 +1,5 @@
 import React, { Component }  from 'react';
-import { Icon }  from 'antd';
-
+import { Icon } from 'semantic-ui-react';
 import './benefit.css';
 
 export default class Benefits extends Component{
@@ -30,8 +29,7 @@ export default class Benefits extends Component{
                     <div className="row">
                       <div className="media-body col-md-6">
                         <h3>{benefit.header}</h3>
-                        <Icon type="code-o" />
-                        &nbsp;&nbsp;<span>{benefit.body}</span>
+                        <Icon name="camera retro" />&nbsp;&nbsp;<span>{benefit.body}</span>
                       </div>
                       <div className="media-items col-md-6">
                         <img src={benefit.url1} alt="futsal" />
@@ -51,7 +49,7 @@ export default class Benefits extends Component{
                     </div>
                     <div className="media-body col-md-6">
                       <h3>{benefit.header}</h3>
-                      <Icon type="camera-o" />
+                      <Icon name="futbol" />
                       &nbsp;&nbsp;<span>{benefit.body}</span>
                     </div>
                   </div>

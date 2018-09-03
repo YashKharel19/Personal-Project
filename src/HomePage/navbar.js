@@ -3,7 +3,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './navbar.css';
 import '../animate.css';
-import Logo from '../assets/logosample.svg'
+import Logo from '../assets/ict.png'
 
 export default class NavBar extends Component{
  constructor(props){
