@@ -16,7 +16,7 @@ export default class NavBar extends Component{
  }
  listenScrollEvent = e => {
    if (window.scrollY > 640) {
-       this.setState({background:'#5A8C89',opacity:0.9})
+       this.setState({background:'#1C6BBA',opacity:0.9})
    }
    else {
      this.setState({background: 'transparent',opacity:1})
@@ -55,7 +55,7 @@ export default class NavBar extends Component{
         <Navbar fluid fixedTop collapseOnSelect style={{background:this.state.background,opacity:this.state.opacity}}>
           <Navbar.Header>
             <Navbar.Brand className="animated fadeInLeft">
-              <a href="/" className='logo'><img src={Logo} alt='logo' width='40px' height='40px' /></a>
+              <a href="/" className='logo'><img src={Logo} alt='logo' width='50px' height='50px' /></a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

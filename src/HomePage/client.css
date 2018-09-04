@@ -60,9 +60,11 @@ margin-top: -12px;
 .hex img {
   left: -100%;
   right: -100%;
-  width:5em;
-  height:5em;
-  margin:3em auto;
+  display: flex;
+  flex-wrap: wrap;
+  width:50%;
+  height:40%;
+  margin:30% auto;
   filter: gray; /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
   -webkit-transition: all .8s ease-in-out;

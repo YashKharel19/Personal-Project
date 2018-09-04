@@ -1,5 +1,5 @@
 .footer-main {
-  background-color: #5A8C89;
+  background-color: #1C6BBA;
   background-image: url('../assets/worldmap.png');
   position:relative;
   width:100%;
@@ -35,16 +35,18 @@
   margin-top: 100px;
   margin-left: 20px;
   color: #fff;
+  padding:1rem 3rem;
   background-color: green;
   border-style: none;
+  border-radius: 40px;
   border: 1px solid green;
   transition: all .2s linear;
-  font-size: 20px;
+  font-size: .9rem;
 }
 
 .footer-head-3:hover, .footer-head-3:focus {
-  color: green;
-  background-color: #fff;
+  color: white;
+  background-color: #335291;
 }
 
 .footer-icon {

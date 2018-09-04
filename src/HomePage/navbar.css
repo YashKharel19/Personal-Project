@@ -16,7 +16,6 @@
   -o-transition: all .05s ease; /* Opera */
 }
 .navbar-default .navbar-brand {
-    padding-top: 20px;
     font-size: 25px;
 }
 .zoom-effect-brand:hover {
@@ -59,7 +58,9 @@
     margin-right: 0;
     margin-left: 0;
 }
-
+.logo{
+  padding-left:40px;
+}
 @media (min-width: 768px){
   .navbar-nav>li>a {
       margin-top: 7px;

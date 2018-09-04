@@ -1,5 +1,5 @@
 .coverpage{
-  background: url('../assets/banner.svg') no-repeat center center fixed;
+  background: url('../assets/theme.svg') no-repeat center center fixed;
                      background-size: cover;
 }
 .icon-down{
@@ -8,42 +8,72 @@
   color: white;
   display: inline-block;
 }
-.main-head{
-  position: relative;
-  padding-top:250px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  color: #fff;
-  padding-bottom: 30px;
-  font-family: 'Roboto', sans-serif;
-  text-shadow: 3px 3px rgba(0,0,0,0.5);
-}
 .main-padding{
-  padding-bottom: 100vh;
-}
-.main-text>p{
-  position: relative;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .10em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em;
-  animation: typing 4s steps(30, end),
-             blink-caret .75s steps(50, end) infinite;
-  text-align: center;
-  font-size: 26px;
-  color: #3EEA75;
-}
-.main-text{
-  display: inline-block;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
 }
 .center{
   text-align: center;
 }
+.main-padding div.laptop-wrapper {
+    position: relative;
+    padding-top: 30vh;
+    padding-bottom:65%;
+    margin-bottom:35vh;
+    width:500px;
+    height: 0;
+    margin-left:21%;
+}
+.main-padding div.laptop-wrapper iframe {
+    box-sizing: border-box;
+    background: url("../assets/video.svg") center center no-repeat;
+    background-size: contain;
+    padding:25% 12% 30% 13%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+/* @media screen and (min-width:992px){
+  .main-padding div.laptop-wrapper {
+      margin-bottom:20vh;
+      width:300px;
+      height: 0;
+      margin-left:10%;
+  }
+  .main-padding div.laptop-wrapper iframe {
+      box-sizing: border-box;
+      background: url("../assets/video.svg") center center no-repeat;
+      background-size: contain;
+      padding:26% 12% 22% 13%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+  }
+} */
 @media screen and (max-width: 768px) {
   .coverpage {
     background-attachment: scroll;
+  }
+  .main-padding div.laptop-wrapper {
+      margin-bottom:20vh;
+      width:300px;
+      height: 0;
+      margin-left:10%;
+  }
+  .main-padding div.laptop-wrapper iframe {
+      box-sizing: border-box;
+      background: url("../assets/video.svg") center center no-repeat;
+      background-size: contain;
+      padding:36% 12% 42% 13%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
   }
 }
 /* The typing effect */

@@ -3,6 +3,7 @@ import { Icon } from 'semantic-ui-react';
 
 import './client.css';
 import { Modal } from 'antd';
+import '../mediaqueries.css';
 
 export default class Client extends Component{
   constructor(props){

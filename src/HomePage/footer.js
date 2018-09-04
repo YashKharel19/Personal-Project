@@ -28,10 +28,10 @@ export default class Footer extends Component {
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
             <h2 className="footer-head-1">GET IN TOUCH</h2>
-            <a className="footer-icon" id="footer-twitter" href="https://www.facebook.com/integratedictnepal/" target="_blank" rel="noopener noreferrer" title="Twitter"><Icon name="twitter" size='large'></Icon></a>
+            <a className="footer-icon" id="footer-twitter" href="https://twitter.com/i2ctnepal" target="_blank" rel="noopener noreferrer" title="Twitter"><Icon name="twitter" size='large'></Icon></a>
             <a className="footer-icon" id="footer-fb" href="https://www.facebook.com/integratedictnepal/" target="_blank" rel="noopener noreferrer" title="Facebook"><Icon name="facebook f" size='large'></Icon></a>
-            <a className="footer-icon" id="footer-googlep" href="https://www.facebook.com/integratedictnepal/" target="_blank" rel="noopener noreferrer" title="Google Plus"><Icon name="google plus" size='large'></Icon></a>
-            <a className="footer-icon" id="footer-youtube" href="https://www.facebook.com/integratedictnepal/" target="_blank" rel="noopener noreferrer" title="Youtube"><Icon name="youtube play" size='large'></Icon></a>
+            <a className="footer-icon" id="footer-googlep" href="https://plus.google.com/u/0/116038666881959794070" target="_blank" rel="noopener noreferrer" title="Google Plus"><Icon name="google plus" size='large'></Icon></a>
+            <a className="footer-icon" id="footer-youtube" href="https://www.youtube.com/channel/UCZzGXLLjAA8KlmWKJiUElew/videos" target="_blank" rel="noopener noreferrer" title="Youtube"><Icon name="youtube play" size='large'></Icon></a>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <Button type="primary" className="footer-head-3" onClick={this.showModal}>CONTACT US</Button>

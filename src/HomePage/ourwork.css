@@ -1,6 +1,6 @@
 .header-ourwork{
   position: relative;
-  background-color: #558C89;
+  background-color: #1C6BBA;
   padding-top: 25px;
   font-size: 24px;
   font-family: 'Roboto',sans-serif;
@@ -10,12 +10,12 @@
   opacity:0.9;
 }
 .work-row{
-  min-height: 80vh;
+  min-height: 60vh;
   display: flex;
   flex-wrap: wrap;
 }
 .work-a{
-  background-color:  #558C89;
+  background-color: #1C6BBA;
   opacity:0.9;
   z-index: 1px;
 }
@@ -84,7 +84,7 @@
   z-index: -10;
 }
 .work-button-position{
-  background-color: #558c89;
+  background-color: #1C6BBA;
   opacity:0.9;
   position: relative;
   padding-top: 40px;
@@ -95,16 +95,17 @@
   text-align: center;
 }
 .work-button {
-  border-radius: 7px;
-  font-size: 20px;
-  text-shadow: 3px 3px rgba(0,0,0,0.5);
+  border-radius: 40px;
+  font-size: 0.9rem;
+  font-weight:bold;
   background-color: transparent;
   color:white;
-  padding:15px;
+  padding:1rem 3rem;
+  border:1px solid #fff !important;
 }
 
 .work-button:hover {
-  background-color: #376eaf;
+  background-color: #335291;
   color:white;
   text-shadow:none;
   transition: all .05s ease;
