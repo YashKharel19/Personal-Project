@@ -1,0 +1,78 @@
+.features-main{
+  position: relative;
+  background-color:#f1f1f1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.features-head{
+  padding-bottom:30px;
+  text-align: center;
+  font-family: 'Roboto' ,sans-serif;
+  font-size: 24px;
+  color: #123456;
+}
+
+.features-main p {
+  text-align: justify;
+}
+.features-h{
+  padding-top: 40px;
+  text-justify: auto;
+  width: 80%;
+  margin: auto;
+  font-family: 'Roboto Slab' ,serif;
+  font-size: 18px;
+  color: #042444;
+}
+
+.features-p{
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 5%;
+  text-align: justify;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  color:#555;
+}
+
+.features-description {
+  margin-bottom: 20px;
+}
+
+div.laptop-wrapper {
+    position: relative;
+    padding-bottom:65%;
+    margin-bottom:5vh;
+    width:100%;
+    height: 0;
+}
+ div.laptop-wrapper iframe {
+    box-sizing: border-box;
+    background: url("../assets/video.svg") center center no-repeat;
+    background-size: contain;
+    padding:8% 18% 13% 18.6%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .main-padding div.laptop-wrapper {
+      margin-bottom:20vh;
+      width:300px;
+      height: 0;
+  }
+  .main-padding div.laptop-wrapper iframe {
+      box-sizing: border-box;
+      background: url("../assets/video.svg") center center no-repeat;
+      background-size: contain;
+      padding:36% 12% 42% 13%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+  }
+}

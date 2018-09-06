@@ -3,7 +3,9 @@ import React, {Component} from 'react';
 import { OurWorkData } from '../Data/Homepage/OurWork/ourworkdata.js'
 import { TestimonialsData } from '../Data/Homepage/Testimonial/testimonialdata.js';
 import { ClientData } from '../Data/Homepage/Client/clientdata.js';
+import { FeatureData } from '../Data/Homepage/Feature/feature.js';
 import  LandingTheme from './coverpage';
+import  FeatureProduct from './FeatureProduct';
 import  Industry from './industry';
 import  OurWork from './ourwork';
 import  Client from './client';
@@ -16,12 +18,14 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <LandingTheme />
-        <Industry />
-        <OurWork ourworkurl={OurWorkData} />
-        <Client clienturl={ClientData} />
-        <Testimonials testimonialurl={TestimonialsData} />
+            <LandingTheme />
+            <FeatureProduct featureurl={FeatureData} />
+            <Industry />
+            <OurWork ourworkurl={OurWorkData} />
+            <Client clienturl={ClientData} />
+            <Testimonials testimonialurl={TestimonialsData} />
       </div>
+
     );
   }
 }

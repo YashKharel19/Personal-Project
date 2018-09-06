@@ -1,7 +1,7 @@
 .header-ourwork{
   position: relative;
   background-color: #1C6BBA;
-  padding-top: 25px;
+  padding-top: 35px;
   font-size: 24px;
   font-family: 'Roboto',sans-serif;
   text-align: center;
@@ -39,7 +39,7 @@
     padding-left: 0;
 }
 .carousel-img {
-  margin-left: 6%;
+  margin-left: 30%;
   margin-right: 2%;
   display: inline-block;
   overflow: hidden;
@@ -105,7 +105,7 @@
 }
 
 .work-button:hover {
-  background-color: #335291;
+  background-color: #1c1cba;
   color:white;
   text-shadow:none;
   transition: all .05s ease;

@@ -32,8 +32,8 @@ export default class Benefits extends Component{
                         <Icon name="camera retro" />&nbsp;&nbsp;<span>{benefit.body}</span>
                       </div>
                       <div className="media-items col-md-6">
-                        <img src={benefit.url1} alt="futsal" />
-                        &nbsp;&nbsp;<img src={benefit.url2} alt="futsal" />
+                        <img src={benefit.url1} alt={benefit.header} />
+                        &nbsp;&nbsp;<img src={benefit.url2} alt={benefit.header} />
                       </div>
                     </div>
                   </div>

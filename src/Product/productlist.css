@@ -16,13 +16,13 @@
 }
 .product-a{
   position:relative;
-  background-color: #74AFAD;
+  background-color: #1C6BBA;
   opacity:0.9;
   z-index: 1px;
 }
 .product-b{
   position: relative;
-  background-color:#D9853B;
+  background-color:#BA6B1C;
   opacity:0.9;
   z-index: 1px;
 }
@@ -98,7 +98,7 @@
 }
 
 .product-button:hover {
-  background-color: #74AFAD;
+  background-color: #1C1CBA;
   color:white;
   transition: all .05s ease;
   -webkit-transition: all .5s ease; /* Safari and Chrome */

@@ -10,70 +10,15 @@
 }
 .main-padding{
   padding-top: 5vh;
-  padding-bottom: 10vh;
+  padding-bottom: 100vh;
 }
 .center{
   text-align: center;
 }
-.main-padding div.laptop-wrapper {
-    position: relative;
-    padding-top: 30vh;
-    padding-bottom:65%;
-    margin-bottom:35vh;
-    width:500px;
-    height: 0;
-    margin-left:21%;
-}
-.main-padding div.laptop-wrapper iframe {
-    box-sizing: border-box;
-    background: url("../assets/video.svg") center center no-repeat;
-    background-size: contain;
-    padding:25% 12% 30% 13%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-/* @media screen and (min-width:992px){
-  .main-padding div.laptop-wrapper {
-      margin-bottom:20vh;
-      width:300px;
-      height: 0;
-      margin-left:10%;
-  }
-  .main-padding div.laptop-wrapper iframe {
-      box-sizing: border-box;
-      background: url("../assets/video.svg") center center no-repeat;
-      background-size: contain;
-      padding:26% 12% 22% 13%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-  }
-} */
+
 @media screen and (max-width: 768px) {
   .coverpage {
     background-attachment: scroll;
-  }
-  .main-padding div.laptop-wrapper {
-      margin-bottom:20vh;
-      width:300px;
-      height: 0;
-      margin-left:10%;
-  }
-  .main-padding div.laptop-wrapper iframe {
-      box-sizing: border-box;
-      background: url("../assets/video.svg") center center no-repeat;
-      background-size: contain;
-      padding:36% 12% 42% 13%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
   }
 }
 /* The typing effect */

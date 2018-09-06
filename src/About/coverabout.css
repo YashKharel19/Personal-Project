@@ -1,5 +1,5 @@
 .coverpage-about{
-  background: url('../assets/about.svg') no-repeat center center fixed;
+  background: url('../assets/theme.svg') no-repeat center center fixed;
                      background-size: cover;
 }
 .about-main-head{
@@ -9,7 +9,7 @@
   font-size: 40px;
   font-weight: bold;
   color: #fff;
-  padding-bottom: 353px;
+  padding-bottom: 100vh;
   font-family: 'Roboto', sans-serif;
   text-shadow: 3px 3px rgba(0,0,0,0.5);
 }

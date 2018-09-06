@@ -10,6 +10,7 @@ import  Career from './Career/careerMain';
 import  Blog from './Blog/blogMain';
 import  Footer from './HomePage/footer';
 import  BlogDetail from './Blog/blogDetail';
+import './App.css';
 
 export default class App extends Component {
     render() {

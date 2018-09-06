@@ -29,7 +29,7 @@ ul.topnav li  {
 }
 
 ul.topnav li :hover:not(.active) {background-color: #111;}
-ul.topnav li.active {background-color: #4CAF50;}
+ul.topnav li.active {background-color: #1cba6b;}
 ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px){

@@ -45,7 +45,7 @@ export default class Client extends Component{
                   <li className="hex" key={client.id}>
                     <div className="hexIn" onClick={()=> this.showModal(client)}>
                        <div className="hexLink">
-                        <img src={client.url} alt={client.url} />
+                        <img title={client.clientname}  src={client.url} alt={client.url} />
                        </div>
                     </div>
                   </li>

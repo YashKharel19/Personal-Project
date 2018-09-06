@@ -61,7 +61,7 @@
     margin-right: auto;
 }
 /* expertise heading */
-.industry-col > h3{
+.industry-h3{
   position: relative;
   margin-top: 25px;
   left: 0;
@@ -77,8 +77,8 @@
 .center-title{
   text-align: center;
 }
+.industry-p {
 /*  industry content*/
-.industry-col > p {
   position: relative;
   margin-top:30px;
   font-size: 15px;
@@ -107,7 +107,7 @@
   padding:1rem 3rem;
 }
 .industry-button:hover{
-  background-color:#335291;
+  background-color:#1C1CBA;
   opacity:0.7;
   color:white;
   transition: all .05s ease;
