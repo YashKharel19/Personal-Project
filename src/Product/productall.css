@@ -21,13 +21,7 @@
 .modal-image-product{
     margin-top: 40%;
 }
-.vlall{
-  border-left: 2px solid #fff;
-  height: 100%;
-  position: absolute;
-  margin-top: -355px;
-  margin-left: 95%;
-}
+
 .productall-details-header1{
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -55,13 +49,6 @@
   text-align:justify;
 }
 @media screen and (max-width: 992px) {
-  .vlall{
-    border-left: transparent;
-    height: 0%;
-    position: absolute;
-    margin-top: 0%;
-    margin-left: 0%;
-  }
   .product-image-center{
     text-align:left;
   }

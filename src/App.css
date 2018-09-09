@@ -1,4 +1,14 @@
-
+.main-head{
+  position: relative;
+  padding-top:250px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 353px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 3px 3px rgba(0,0,0,0.5);
+}
 #section07 span {
   position: absolute;
   top:88vh;

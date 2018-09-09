@@ -1,5 +1,3 @@
-const Spell = require('../../../assets/spell.svg');
-
 export const FeatureData =
 [
   {

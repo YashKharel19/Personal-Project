@@ -36,7 +36,6 @@ export default class ProductAll extends Component{
                     <div className='product-image-center'>
                       <img src={productall.imageurl} alt={productall.title} width='300px' className='modal-image-product' />
                     </div>
-                    <div className='vlall'></div>
                   </div>
                   <div className="col-sm-6 productall-detail-all">
                     <h2 className='productall-details-header1'>{productall.title}</h2>

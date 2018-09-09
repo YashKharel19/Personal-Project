@@ -7,7 +7,7 @@ export default class BlogCover extends Component{
   return(
     <div>
       <div className='coverpage-blog'></div>
-      <h1 className='blog-main-head'> Blog Section</h1>
+      <h1 className='main-head'> Blog Section</h1>
     </div>
   );
  }

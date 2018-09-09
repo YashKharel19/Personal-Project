@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Card, Icon } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
 
 import './blogContent.css';
 
@@ -36,7 +35,7 @@ export default class BlogContent extends Component{
               <div className="row blog-card">
                 {blogs.map(blog =>
                     <div className='blog-content col-lg-4 col-md-6 col-sm-6 col-xs-12'>
-                      <Link to={`/blog/details/${blog.title}`} key='id'>
+                      <a href="https://medium.com/" target="_blank" rel="noopener noreferrer" key='id'>
                         <Card fluid className="blog-ui-card">
                           <div className="blog-pos-fixed">
                             <img src={blog.url} alt='Devops' width="100%" height="70%" />
@@ -47,7 +46,7 @@ export default class BlogContent extends Component{
                             </div>
                           </div>
                         </Card>
-                      </Link>
+                      </a>
                     </div>
                 )}
               </div>

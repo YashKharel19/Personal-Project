@@ -9,7 +9,6 @@ import  About from './About/aboutMain';
 import  Career from './Career/careerMain';
 import  Blog from './Blog/blogMain';
 import  Footer from './HomePage/footer';
-import  BlogDetail from './Blog/blogDetail';
 import './App.css';
 
 export default class App extends Component {
@@ -27,7 +26,6 @@ export default class App extends Component {
           } />
           <Route exact path='/blog' component={Blog} />
           <Route exact path='/aboutus' component={About} />
-          <Route exact path='/blog/details/:title' component={BlogDetail} />
           <Route exact path='/career' component={Career} />
         </Switch>
         <Footer/>
