@@ -12,7 +12,7 @@ export default class ProdCover extends Component{
       <div className='coverpage-product'>
           <div className='col-md-6'></div>
           <div className='col-md-6'>
-                <h1 className='main-head'> Blog Section</h1>
+                <h1 className='main-head'>OUR WORKS</h1>
           </div>
           <div className='product-main-head'>
                   <div className='scroll' id='section07' onClick={this.handleClick}><span></span><span></span><span></span></div>

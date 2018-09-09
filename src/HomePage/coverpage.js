@@ -10,7 +10,7 @@ export default class LandingTheme extends Component{
       <div className='coverpage'>
             <div className='col-md-6'></div>
             <div className='col-md-6'>
-                  <h1 className='main-head'> Blog Section</h1>
+                  <h1 className='main-head'>ARTIFICIAL INTELLIGENCE</h1>
             </div>
             <div className='main-padding'>
                     <div className='scroll' id='section07' onClick={this.handleClick}><span></span><span></span><span></span></div>

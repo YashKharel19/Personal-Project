@@ -12,7 +12,7 @@ export default class CareerCover extends Component{
     <div className='coverpage-career'>
     <div className='col-md-6'></div>
     <div className='col-md-6'>
-          <h1 className='main-head'> Blog Section</h1>
+          <h1 className='main-head'>JOIN OUR TEAM</h1>
     </div>
       <div className='career-main-head'>
               <div className='scroll' id='section07' onClick={this.handleClick}><span></span><span></span><span></span></div>
