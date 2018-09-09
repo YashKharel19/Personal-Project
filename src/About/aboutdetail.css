@@ -16,8 +16,8 @@
 
 /*  about intro */
 .about-content{
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align: center;
   font-family: 'Roboto Slab' ,serif;
   font-size: 18px;
@@ -52,8 +52,8 @@
   color: #123456;
   }
 .about-content-fintech{
-  padding-left: 17%;
-  padding-right: 17%;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align:center;
   font-family: 'Roboto Slab' ,serif;
   font-size: 16px;
@@ -89,16 +89,29 @@
   min-height: 450px;
 }
 .workingareas-height{
-  height:550px;
+  min-height:450px;
 }
 .title-line{
     left: 50%;
     position: absolute;
-    top:325px;
+    top:330px;
     width: 82px;
     height: 2px;
     background: #7ED321;
 }
 .ai-fintech{
   padding-top: 10%;
+}
+
+@media screen and (max-width:992px){
+  .title-line{
+      display:none;
+  }
+  .about-row{
+    margin: 30px 6% 30px 1%;
+    min-height: content;
+  }
+  .workingareas-height{
+    min-height:content;
+  }
 }

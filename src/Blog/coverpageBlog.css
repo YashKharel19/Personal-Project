@@ -1,12 +1,4 @@
 .coverpage-blog{
-  margin-top:-30px;
-  position: fixed;
-  width: 100%;
-  background:linear-gradient(
-                     rgba(127,175,173, .7),
-                     rgba(127,175,173, .7)),
-                     url("../assets/blog.png") no-repeat center center fixed;
-     /* Full height */
-   height: 103%;
-   background-size: cover;
+  background: url('../assets/about.svg') no-repeat center center fixed;
+                     background-size: cover;
 }

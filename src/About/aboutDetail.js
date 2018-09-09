@@ -28,6 +28,7 @@ export default class AboutDetail extends Component{
     if(aboutict.length){
       return(
         <div className='about-back'>
+            <div className='container'>
               {aboutict.map(shortdesc =>{
                   return(
                     <div key={shortdesc.id}>
@@ -78,6 +79,7 @@ export default class AboutDetail extends Component{
                           )}
                           </div>
                     </div>
+              </div>      
         </div>
       );
     }

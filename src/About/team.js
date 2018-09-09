@@ -38,6 +38,7 @@ export default class Team extends Component {
      if(persons.length){
         return(
               <div className="team-main">
+                <div className='container'>
                 <h1 className="team-head">THE ROOTS</h1>
                 <p className='about-team'>
                     The Integrated ICT is amazing. Team includes the person with profound research backgound to the people having sound knowledge of users actual usage environment. This makes great combination to solve the challenging problems and provide the customized solutions to the users where user can have best experience to use the software system.
@@ -105,6 +106,7 @@ export default class Team extends Component {
                     </a>
                   </div>
                </div>
+            </div>   
           </div>
         );
     }
