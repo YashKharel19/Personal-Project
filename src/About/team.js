@@ -84,7 +84,7 @@ export default class Team extends Component {
                             return(
                                 <div key={expertise.id} className = 'list-expertise'>
                                   <ul>
-                                    <li className='btn'>{expertise.interest}</li>
+                                    <li>{expertise.interest}</li>
                                   </ul>
                                 </div>
                             );

@@ -158,13 +158,7 @@ margin-top: -12px;
   color:green;
   text-align: center;
 }
-.vertical-line{
-  border-left: 2px solid #fff;
-  height: 80vh;
-  position: absolute;
-  margin-top: -265px;
-  margin-left: 95%;
-}
+
 .client-all-modal-details-header1{
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -225,13 +219,7 @@ margin-top: -12px;
     margin-top: -50px;
 }
 @media screen and (max-width: 992px) {
-  .vertical-line{
-    border-left: transparent;
-    height: 0%;
-    position: absolute;
-    margin-top: 0%;
-    margin-left: 0%;
-  }
+  
   .image-center{
     text-align:left;
   }

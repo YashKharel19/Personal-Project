@@ -15,7 +15,13 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-
+    display:flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.tablinks{
+  flex: auto;
+  border-right: 1px solid white;
 }
 
 ul.topnav li {float: left;}

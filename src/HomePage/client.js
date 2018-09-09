@@ -61,6 +61,7 @@ export default class Client extends Component{
                   okButtonProps={{ disabled: true }}
                   cancelButtonProps={{ dispaly:"none" }}
                   okText="Close"
+                  bodyStyle={{height:'100vh'}}
                 >
                       <div className='row'>
                         <div className="col-md-4">
@@ -69,21 +70,16 @@ export default class Client extends Component{
                           </div>
                           <h2 className='client-all-modal-name'>{currentClient.clientname}</h2>
                           <h3 className='client-all-modal-position'>{currentClient.clientdetail}</h3>
-                          <div className='vertical-line'></div>
                         </div>
-                        <div className="col-sm-6 client-all-modal-detail-all">
+                        <div className="col-md-6 client-all-modal-detail-all">
                           <h2 className='client-all-modal-details-header1'>Contact Info</h2>
-                          <p className='client-all-modal-contact'>{currentClient.clientcontact}</p>
+                          <p className='client-all-modal-contact'><a href={`${currentClient.clientcontact}`} target="_blank" rel="noopener noreferrer">{currentClient.clientcontact}</a></p>
                           <h2 className='client-all-modal-details-header2'>Project Worked Together</h2>
                           <ul>
-                            <li className='btn'>SPELL CHECKER</li>
-                            <li className='btn'>DOCUMENT MANAGEMENT SYSTEM</li>
+                            <li>SPELL CHECKER</li>
+                            <li>DOCUMENT MANAGEMENT SYSTEM</li>
                           </ul>
-                          <h2 className='client-all-modal-details-header3'>SPELL CHECKER</h2>
-                          <p className='person-description'>
-                            {currentClient.description}
-                          </p>
-                          <h2 className='client-all-modal-details-header3'>DOCUMENT MANAGEMENT SYSTEM</h2>
+                          <h2 className='client-all-modal-details-header3'>Description about client</h2>
                           <p className='person-description'>
                             {currentClient.description}
                           </p>

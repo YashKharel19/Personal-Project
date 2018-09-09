@@ -10,7 +10,7 @@
 }
 .main-padding{
   padding-top: 5vh;
-  padding-bottom: 100vh;
+  height: 100vh;
 }
 .center{
   text-align: center;

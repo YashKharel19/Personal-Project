@@ -6,7 +6,7 @@ import '../mediaqueries.css';
 
 import './industry.css';
 import { IndustryData } from '../Data/Homepage/Industry/industrydata.js';
-import '../animate.css';
+// import '../animate.css';
 
 export default class Industry extends Component{
   constructor(props){
@@ -32,23 +32,25 @@ export default class Industry extends Component{
               <ScrollAnimation
               animateIn='zoomIn'
               animateOnce={true}>
-                <div className="industry-row">
+                <div className='industry-div'>
                     {industries.map(industry =>{
                       return(
-                        <div key={industry.id} className="col-xl-3 col-lg-4 col-md-6">
-                            <Card>
-                              <div className='industry-image'>
-                                <img src={industry.url} alt={industry.title} width='100px' />
-                              </div>
-                              <h3 className = 'center-title industry-h3'>{industry.title}</h3>
-                              <p className='industry-p'>{industry.description}</p>
+                        <div key={industry.id} className="col-md-4">
+                            <Card fluid className='industry-ui-card'>
+                                  <div className='industry-image'>
+                                    <img src={industry.url} alt={industry.title} width='100px' />
+                                  </div>
+                                  <h3 className = 'center-title industry-h3'>{industry.title}</h3>
+                                  <p className='industry-p'>{industry.description}</p>
                             </Card>
                         </div>
                       );
                     }
                     )}
                     <a href='/aboutus' exact="true" key='id'>
-
+                      <div className ='center-title'>
+                            <button className='industry-button'>Learn More</button>
+                      </div>
                     </a>
                 </div>
               </ScrollAnimation>
@@ -61,8 +63,3 @@ export default class Industry extends Component{
     }
   }
 }
-// <div className ='center-title'>
-//     <div className='industry-button-position'>
-//         <button className='industry-button'>Learn More</button>
-//     </div>
-// </div>

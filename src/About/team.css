@@ -63,7 +63,9 @@
   transition: all 1s ease;
   background: linear-gradient(135deg, rgba(208, 224, 65, .7) 0%,rgba(50, 132, 37, .7) 100%);
 }
-
+.height-team-modal{
+  height:120vh;
+}
 .team-card:hover .team-info {
   opacity: 1;
 }
@@ -177,18 +179,7 @@
 .team-detail-all{
   margin-left: 2%;
 }
-.btn {
-    background:transparent;
-    font-size: 14px;
-    font-weight: 300;
-    margin-bottom: 3px;
-    padding: 1px 5px;
-    text-transform: uppercase;
-    border: 1px solid #ddd;
-    margin-right: 3px;
-    cursor: initial;
-    color: #123456;
-}
+
 .person-description{
   font-family: "Roboto Slab", serif;
   font-size: 16px;

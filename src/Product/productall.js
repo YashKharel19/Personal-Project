@@ -44,7 +44,7 @@ export default class ProductAll extends Component{
                     {productall.used.map(list=>{
                       return(
                         <ul key={list.id}>
-                          <li className='btn'>{list.client}</li>
+                          <li>{list.client}</li>
                         </ul>
                       );
                     })}
