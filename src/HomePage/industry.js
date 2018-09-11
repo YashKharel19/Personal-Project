@@ -2,11 +2,10 @@ import React, {Component} from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Card } from 'antd';
 import { Icon } from 'semantic-ui-react';
-import '../mediaqueries.css';
 
+import '../mediaqueries.css';
 import './industry.css';
 import { IndustryData } from '../Data/Homepage/Industry/industrydata.js';
-// import '../animate.css';
 
 export default class Industry extends Component{
   constructor(props){

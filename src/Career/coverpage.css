@@ -1,5 +1,8 @@
 .coverpage-career{
-  background: url('../assets/career.svg') no-repeat center center fixed;
+  background: linear-gradient(
+                     rgba(2,2,2, .8),
+                     rgba(2,2,2, .8)),
+                     url('../assets/about.jpg') no-repeat center center fixed;
                      background-size: cover;
 }
 .career-main-head{

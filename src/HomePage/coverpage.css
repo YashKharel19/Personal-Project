@@ -1,6 +1,7 @@
 .coverpage{
-  background: url('../assets/theme.svg') no-repeat center center fixed;
-                     background-size: cover;
+  height: 100vh;
+  background: no-repeat center center fixed;
+  background-size:cover;
 }
 .icon-down{
   position: relative;
@@ -9,13 +10,38 @@
   display: inline-block;
 }
 .main-padding{
-  padding-top: 5vh;
-  height: 100vh;
+  height:100vh;
 }
+
 .center{
   text-align: center;
 }
+.main-button {
+  border-radius: 40px;
+  font-size: 0.9rem;
+  font-weight:bold;
+  background-color: transparent;
+  color:white;
+  padding:1rem 3rem;
+  border:1px solid #fff !important;
+}
 
+.main-button:hover {
+  background-color: #1c1cba;
+  color:white;
+  text-shadow:none;
+  transition: all .05s ease;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease;
+  transform:scale(1.05);
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 @media screen and (max-width: 768px) {
   .coverpage {
     background-attachment: scroll;

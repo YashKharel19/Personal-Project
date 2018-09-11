@@ -9,12 +9,9 @@ export default class BlogCover extends Component{
  render(){
   return(
     <div className='coverpage-blog'>
-        <div className='col-md-6'></div>
-        <div className='col-md-6'>
-              <h1 className='main-head'> BLOG SECTION</h1>
-        </div>
         <div className='about-main-head'>
-                <div className='scroll' id='section07' onClick={this.handleClick}><span></span><span></span><span></span></div>
+          <h1 className='main-head'> BLOG SECTION</h1>
+            <div className='scroll' id='section07' onClick={this.handleClick}><span></span><span></span><span></span></div>
         </div>
     </div>
   );
