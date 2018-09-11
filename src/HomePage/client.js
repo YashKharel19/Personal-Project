@@ -61,7 +61,6 @@ export default class Client extends Component{
                   okButtonProps={{ disabled: true }}
                   cancelButtonProps={{ dispaly:"none" }}
                   okText="Close"
-                  bodyStyle={{height:'100vh'}}
                 >
                       <div className='row'>
                         <div className="col-md-4">

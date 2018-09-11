@@ -92,7 +92,14 @@
   bottom: 15%;
   left: 30%;
 }
+/* #contact-linkedin {
+  transition: .3s ease;
+}
 
+#contact-linkedin:hover, #linkedin-youtube:focus {
+  color: #00;
+  text-decoration: none;
+} */
 @media screen and (min-width: 992px) {
   .team-main{
       margin-bottom: 8px;
@@ -143,13 +150,6 @@
   color:green;
   text-align: center;
 }
-.vl{
-  border-left: 2px solid #fff;
-  height: 80vh;
-  position: absolute;
-  margin-top: -350px;
-  margin-left: 95%;
-}
 .team-details-header1{
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -170,12 +170,7 @@
   padding-top: 20px;
   text-align: left;
 }
-.team-contact{
-  font-family: "Roboto Slab", serif;
-  font-size: 16px;
-  color:green;
-  text-align:left;
-}
+
 .team-detail-all{
   margin-left: 2%;
 }
@@ -187,13 +182,7 @@
   text-align:justify;
 }
 @media screen and (max-width: 992px) {
-  .vl{
-    border-left: transparent;
-    height: 0%;
-    position: absolute;
-    margin-top: 0%;
-    margin-left: 0%;
-  }
+
   .title-line{
     display: none;
   }

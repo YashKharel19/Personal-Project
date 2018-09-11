@@ -75,22 +75,26 @@ export default class Team extends Component {
                           </div>
                           <h2 className='team-name'>{currentPerson.name}</h2>
                           <h3 className='team-position'>{currentPerson.position}</h3>
-                          <div className='vl'></div>
                          </div>
                         <div className="col-sm-6 team-detail-all">
-                          <h2 className='team-details-header1'>Contact Info</h2>
-                          <p className='team-contact'>{currentPerson.link}</p>
-                          <h2 className='team-details-header2'>Expertise</h2>
-                          {currentPerson.tags.map(expertise=>{
-                            return(
-                                <div key={expertise.id} className = 'list-expertise'>
-                                  <ul>
-                                    <li>{expertise.interest}</li>
-                                  </ul>
-                                </div>
-                            );
-                          })}
-                          <h2 className='team-details-header3'>A little description about {currentPerson.name}</h2>
+                          <h3 className='team-details-header1'>Contact Info</h3>
+                          <a href={`${currentPerson.link}`}target="_blank" rel="noopener noreferrer" title="Linkedin"><Icon name='linkedin' size='big' style={{color:'#0073b1'}} /></a>
+                          <h3 className='team-details-header2'>Expertise</h3>
+                          <div style={{paddingLeft: "20px", width: "100%", "display": "flex", flexWrap: "wrap"}}>
+                                      {
+                                          currentPerson.tags.map((expertise,index) =>
+                                              <span
+                                                  key={index}
+                                                  style={{
+                                                  backgroundColor: "white",
+                                                  borderRadius: "5px",
+                                                  boxShadow: "0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+                                                  padding: "5px 15px", marginRight: "10px", marginBottom: "10px"
+                                              }}>{expertise.interest}</span>
+                                          )
+                                      }
+                            </div>
+                          <h3 className='team-details-header3'>A little description about {currentPerson.name}</h3>
                           <p className='person-description'>{currentPerson.description}</p>
                         </div>
                       </div>
@@ -106,7 +110,7 @@ export default class Team extends Component {
                     </a>
                   </div>
                </div>
-            </div>   
+            </div>
           </div>
         );
     }
