@@ -52,7 +52,7 @@ export default class Footer extends Component {
           </div>
 
           <div className="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-            <h2 className="footer-head-2">Semantro</h2>
+            <h2 className="footer-head-2">Integrated ICT Pvt. Ltd</h2>
             <p className="footer-des">© Copyright 2018. All rights reserved unless stated. Designed & built with <span className="footer-love">♥</span> in Nepal</p>
           </div>
         </div>
