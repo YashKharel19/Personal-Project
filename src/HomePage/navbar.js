@@ -31,18 +31,18 @@ export default class NavBar extends Component{
    window.addEventListener('scroll', this.listenScrollEvent);
  }
  componentWillMount(){
-    const menuname = window.location.pathname;
+    const menuname = window.location.hash;
     switch(true) {
-     case menuname.startsWith('/aboutus'):
+     case menuname.startsWith('#/aboutus'):
          this.setState({activeKey:2});
          break;
-     case menuname.startsWith('/product'):
+     case menuname.startsWith('#/product'):
              this.setState({activeKey:3});
              break;
-     case menuname.startsWith('/career'):
+     case menuname.startsWith('#/career'):
          this.setState({activeKey:4});
          break;
-     case menuname.startsWith('/blog'):
+     case menuname.startsWith('#/blog'):
          this.setState({activeKey:5});
          break;
      default:

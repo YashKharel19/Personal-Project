@@ -14,6 +14,9 @@ export default class Industry extends Component{
       industries:[]
     };
   }
+  navChange(){
+    window.location.reload();
+  }
   componentDidMount(){
     const industryvalue = IndustryData;
       this.setState(
@@ -35,7 +38,7 @@ export default class Industry extends Component{
                     {industries.map(industry =>{
                       return(
                         <div key={industry.id} className="col-md-4">
-                            <Card fluid className='industry-ui-card'>
+                            <Card fluid={true} className='industry-ui-card'>
                                   <div className='industry-image'>
                                     <img src={industry.url} alt={industry.title} width='100px' />
                                   </div>
@@ -46,7 +49,7 @@ export default class Industry extends Component{
                       );
                     }
                     )}
-                    <a href='/aboutus' exact="true" key='id'>
+                    <a href='#/aboutus' onClick={this.navChange} exact="true" key='id'>
                       <div className ='center-title'>
                             <button className='industry-button'>Learn More</button>
                       </div>

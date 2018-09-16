@@ -40,7 +40,7 @@ export default class FeatureProduct extends Component{
                               </div>
                               <div className="col-md-6">
                                       <div className="laptop-wrapper">
-                                            <iframe width="560" height="315" title='sahek' src="https://www.youtube.com/embed/WEy_deihDfo?rel=0&autoplay=1&loop=1&playlist=WEy_deihDfo”" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            <iframe width="560" height="315" title='sahek' src="https://www.youtube.com/embed/WEy_deihDfo?rel=0&autoplay=1&loop=1&playlist=WEy_deihDfo”" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                                       </div>
                               </div>
                           </div>

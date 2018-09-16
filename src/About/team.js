@@ -14,6 +14,9 @@ export default class Team extends Component {
       currentPerson:{}
     }
   }
+  navChange(){
+    window.location.reload();
+  }
   showModal = (person) => {
     this.setState({
       visible: true,
@@ -100,7 +103,7 @@ export default class Team extends Component {
                       </div>
                   </Modal> : null}
                   <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <a href='/career' key='id'>
+                    <a href='#/career' onClick={this.navChange} key='id'>
                         <div className="join-image">
                           <img src={User} alt='user' height="100%" />
                           <div className='join-team'>

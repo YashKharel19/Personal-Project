@@ -13,16 +13,19 @@ export default class LandingTheme extends Component{
   handleClick(){
     window.scrollTo(0,650);
   }
+  navChange(){
+    window.location.reload();
+  }
   render(){
     return(
       <div className='main-padding'>
-        <Carousel>
+        <Carousel pauseOnHover={false} >
           <Carousel.Item animateIn={true}>
              <div className='coverpage' style={{backgroundImage:`url(${ThemeA})`}}>
                 <div className='col-md-6'>
                     <h1 className='main-head animated zoomIn'>ARTIFICIAL INTELLIGENCE</h1>
                     <p className='cover-description animated  bounceInUp'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href='/aboutus' key='id'>
+                    <a href="#/aboutus" onClick={this.navChange} key='id'>
                       <div className='main-button-position center-title'>
                           <button className='main-button animated fadeInLeft'>KNOW MORE</button>
                       </div>
@@ -37,7 +40,7 @@ export default class LandingTheme extends Component{
                   <div className='col-md-6'>
                       <h1 className='main-head animated fadeInDown'>DIGITAL TRANSFORMATION NOW AND BEYOND</h1>
                       <p className='cover-description animated fadeInRight'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                      <a href='/aboutus' key='id'>
+                      <a href="#/aboutus" onClick={this.navChange} key='id'>
                         <div className='main-button-position center-title'>
                             <button className='main-button animated fadeInLeft'>KNOW MORE</button>
                         </div>
@@ -54,7 +57,7 @@ export default class LandingTheme extends Component{
                     <div className='col-md-6'>
                         <h1 className='main-head animated fadeInDown'>HIGHLY SCALABLE TECHNOLOGIES</h1>
                         <p className='cover-description animated fadeInUp'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href='/aboutus' key='id'>
+                        <a href="#/aboutus" onClick={this.navChange} key='id'>
                           <div className='main-button-position center-title'>
                               <button className='main-button animated fadeInRight'>KNOW MORE</button>
                           </div>
@@ -69,7 +72,7 @@ export default class LandingTheme extends Component{
                     <div className='col-md-6'>
                           <h1 className='main-head animated fadeInLeft'> NATURAL LANGUAGE PROCESSING</h1>
                           <p className='cover-description animated fadeInUp'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                          <a href='/aboutus' key='id'>
+                          <a href="#/aboutus" onClick={this.navChange} key='id'>
                             <div className='main-button-position center-title'>
                                 <button className='main-button animated fadeInRight'>KNOW MORE</button>
                             </div>

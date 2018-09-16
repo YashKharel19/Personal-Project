@@ -12,6 +12,9 @@ export default class OurWork extends Component {
       ourworks:[]
     }
   }
+  navChange(){
+    window.location.reload();
+  }
   componentDidMount(){
     const {ourworkurl} = this.props;
       this.setState(
@@ -43,7 +46,7 @@ export default class OurWork extends Component {
                           </Carousel.Item>)}
                         </Carousel>
                   </div>
-              <a href='/product' key='id'>
+              <a href='#/product' onClick={this.navChange} key='id'>
                 <div className='work-button-position center-title'>
                     <button className='work-button'>SEE ALL</button>
                 </div>
